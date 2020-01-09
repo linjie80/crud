@@ -245,7 +245,7 @@ img {
 }
 hr {
   margin-top: 20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
@@ -1460,7 +1460,6 @@ input[type=color]:focus {
   background-image: url("../images/ico-circle1.png");
 }
 *html {
-  background-image: url(about:blank);
   background-attachment: fixed;
 }
 /** common **/
@@ -1677,15 +1676,11 @@ input[type=color]:focus {
   margin-left: 0;
   background-position: -60px -195px;
   *right: -18px;
-  _right: -15px;
-  _top: -23px;
   _width: 14px;
   _height: 14px;
-  _background-position: -31px -7px;
 }
 .xubox_setwin .xubox_close1:hover {
   background-position: -91px -195px;
-  _background-position: -51px -7px;
 }
 .xubox_title {
   width: 100%;
