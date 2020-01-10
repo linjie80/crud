@@ -39,7 +39,7 @@ public class LoginController {
                 } else {
                     HttpSession sessoin = request.getSession();//这就是session的创建
                     sessoin.setAttribute("userLogin", user1);
-                    sessoin.setMaxInactiveInterval(120 * 60);
+                    sessoin.setMaxInactiveInterval(20 * 60);
                     map.put("msg", "登入成功");
                     return "redirect:/index";
                 }
